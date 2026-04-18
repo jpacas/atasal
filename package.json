@@ -1,0 +1,27 @@
+{
+  "name": "next-atasal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "generate:content": "node scripts/generate-content.mjs",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "next": "15.1.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "22.10.7",
+    "@types/react": "19.0.4",
+    "@types/react-dom": "19.0.2",
+    "jsdom": "^29.0.2",
+    "typescript": "5.7.3",
+    "vitest": "^4.1.4"
+  }
+}
